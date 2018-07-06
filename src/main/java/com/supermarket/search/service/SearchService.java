@@ -1,6 +1,6 @@
 package com.supermarket.search.service;
 
-import com.supermarket.search.pojo.SearchResult;
+import com.supermarket.common.pojo.SearchResult;
 
 public interface SearchService {
 	

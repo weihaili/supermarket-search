@@ -12,9 +12,10 @@ import org.apache.solr.common.SolrDocumentList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.supermarket.common.pojo.Item;
+import com.supermarket.common.pojo.SearchResult;
 import com.supermarket.search.dao.SearchDao;
-import com.supermarket.search.pojo.Item;
-import com.supermarket.search.pojo.SearchResult;
+
 
 /**
  * @author Admin

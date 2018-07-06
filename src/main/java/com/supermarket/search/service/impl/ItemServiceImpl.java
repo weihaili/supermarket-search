@@ -1,18 +1,16 @@
 package com.supermarket.search.service.impl;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.apache.solr.client.solrj.SolrServer;
-import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.supermarket.common.pojo.Item;
 import com.supermarket.common.utils.ExceptionUtil;
 import com.supermarket.common.utils.KklResult;
 import com.supermarket.search.mapper.ItemMapper;
-import com.supermarket.search.pojo.Item;
 import com.supermarket.search.service.ItemService;
 
 @Service

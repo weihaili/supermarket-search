@@ -2,7 +2,8 @@ package com.supermarket.search.mapper;
 
 import java.util.List;
 
-import com.supermarket.search.pojo.Item;
+import com.supermarket.common.pojo.Item;
+
 
 public interface ItemMapper {
 	

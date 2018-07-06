@@ -5,8 +5,8 @@ import org.apache.solr.client.solrj.SolrQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.supermarket.common.pojo.SearchResult;
 import com.supermarket.search.dao.SearchDao;
-import com.supermarket.search.pojo.SearchResult;
 import com.supermarket.search.service.SearchService;
 
 @Service

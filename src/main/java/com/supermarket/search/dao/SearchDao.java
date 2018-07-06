@@ -2,7 +2,8 @@ package com.supermarket.search.dao;
 
 import org.apache.solr.client.solrj.SolrQuery;
 
-import com.supermarket.search.pojo.SearchResult;
+import com.supermarket.common.pojo.SearchResult;
+
 
 public interface SearchDao {
 	
