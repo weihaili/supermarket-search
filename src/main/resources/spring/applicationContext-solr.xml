@@ -15,4 +15,8 @@
 	</bean>
 	
 	<!-- cluster version -->
+	<bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
+		<constructor-arg name="zkHost" value="${solrCloud.zookeeper.ipAndPort}"></constructor-arg>
+		<property name="defaultCollection" value="collection2"></property>
+	</bean>
 </beans>
